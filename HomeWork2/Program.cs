@@ -11,6 +11,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число и мы покажем вам третью цифру этого числа!");
             int number = Convert.ToInt32(Console.ReadLine());
             string str = Convert.ToString(number);
             if (str.Length < 3)
