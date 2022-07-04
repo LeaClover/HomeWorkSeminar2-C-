@@ -11,6 +11,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите трехзначное число и мы покажем вам вторую цифру этого числа!");
             int number = Convert.ToInt32(Console.ReadLine());
             string str = Convert.ToString(number);
             if (str.Length == 3)
@@ -19,7 +20,7 @@ namespace HelloWorld
             }
             else
             {
-                Console.WriteLine("НЕВЕРНО");
+                Console.WriteLine("Введенное число не является трехзначным!");
             }
         }
        
