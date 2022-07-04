@@ -15,7 +15,7 @@ namespace HelloWorld
             Console.WriteLine("Введите цифру дня недели и мы покажем является ли он выходным!");
             int number = Convert.ToInt32(Console.ReadLine());
             string num = Convert.ToString(number);
-            if (number < str.Length+1)
+            if (number < str.Length+1) 
             {
                 if (num == str[5] ^ num == str[6])
                     {
